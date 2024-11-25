@@ -20,7 +20,7 @@ green_array[:, :, 1] = gray_array  # Assign the grayscale values to the green ch
 green_image = Image.fromarray(green_array, 'RGB')
 
 # Save the new image as image_green.png
-output_image_path = "image_green.png"
+output_image_path = "Processed_image_green.png"
 green_image.save(output_image_path)
 
 print(f"Green scale image saved as {output_image_path}")
